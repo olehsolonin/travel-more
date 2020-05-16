@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap');
+
+
+body{
+
+}
+
+/* Layout */
+/* .ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px; */
+	
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-bhromaon {
+	background-image: url(../images/Image.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	border:  15px solid ;
+	border-color: #FFFFFF;
+	border-bottom: 0px;
+	height: 100vh;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-top: 250px;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.ba-bhr{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 42px;
+	letter-spacing: 10px;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+.ba-bhr-safe{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	letter-spacing: 8px;
+	color: #FFFFFF;
+	
+}
+
+.ba-form{
+	display: inline;
+	
+}
+
+.ba-form__text{
+	width: 500px;
+	height: 60px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	color: #999999;
+
+}
+
+.ba-bhromaon-search{
+	display: inline-flex
+
+}
+
+.ba-search{
+	background-color: #5474FD;
+	padding: 0px;
+	border: 2px solid white;
+	font-family: font-family: 'Aleo', serif;;
+	font-size: 14px;
+	box-sizing: border-box;
+	height: 60px;
+	width: 150px;
+	font-weight: 400;
+	
+}
+
+.ba-scroll{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	display: block;
+	padding-top: 115px;
+	text-align: center;
+}
+
+.ba-nav{
+	align-items: center;
+	align-self: center;
+	margin-bottom: 130px;
+}
+
+.ba-bhromaon__footer q{
+	display: inline-flex;
+	background-color: #5474FD;
+	text-align: center;
+	height: 80px;
+	color: #FFFFFF;
+	
+	
+
+}
